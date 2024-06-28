@@ -46,7 +46,7 @@ if (createAccountButton) {
         .then((response) => response.json())
         .then((result) => {
           if (result && result.success) {
-            window.location.replace("/sign");
+            window.location.replace("/sigin");
           }
         })
         .catch((error) => console.log(error));
